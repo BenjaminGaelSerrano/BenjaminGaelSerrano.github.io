@@ -1,0 +1,66 @@
+:root{
+    --celeste:rgb(165, 165, 243);
+    --verde:rgb(72, 248, 72);
+    --color_nuevo:rgb(224, 184, 236);
+    --celestito:rgb(80, 196, 216);
+
+
+
+}
+
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    padding: 40px;
+}
+.logo{
+
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    padding: 30 px;
+    color:var(--verde);
+
+}
+.lema{
+    text-align: center;
+    font-size: 60px;
+    text-decoration:none;
+    padding: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    list-style-type: none;
+    color: var(--color_nuevo);
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    padding: 70px 187px;
+    color:var(--celestito);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+body{
+    background-color: var(--celeste);
+    border: 7px solid var(--verde);
+    margin: 10px;
+}
+.creditos{
+    list-style: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.escudo{
+    width: 10%;
+    height: 10%;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
